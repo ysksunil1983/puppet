@@ -1,5 +1,5 @@
 class apache {
-		package	{ "installing httpd":
+		package	{ "installing httpdon the request server":
 			  name => httpd,
 			  ensure => present,
 			}
